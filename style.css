@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --background: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+}
+
+body {
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 57.37rem;
+  height: 3.12rem;
+  margin-left: 17.5rem;
+  margin-top: 3.12rem;
+}
+
+header a {
+  width: 2.70rem;
+  height: 1.18rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.87rem;
+  line-height: 1.18rem;
+  letter-spacing: 0.02rem;
+  text-decoration: none;
+
+  margin-right: 2.02rem;
+
+  color: var(--text-color);
+}
+
+header button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.62rem;
+
+  background-color: transparent;
+  color: var(--text-color);
+  width: 10.75rem;
+  height: 2.31rem;
+
+  border: 0.06rem solid var(--button);
+  border-radius: 0.375rem;
+}
+
+#bola1 {
+  position: absolute;
+  width: 20.06rem;
+  height: 20.06rem;
+  left: 65.31rem;
+  top: -3.93rem;
+  background: #996dff;
+  filter: blur(12.5rem);
+}
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+main h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.81rem;
+  letter-spacing: -0.03rem;
+
+  text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  color: var(--text-color);
+}
+
+main h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.81rem;
+  letter-spacing: -0.03rem;
+
+  -webkit-text-stroke-width: 0.12rem;
+  -webkit-text-stroke-color: var(--button);
+  color: transparent;
+}
+
+main img {
+  display: flex;
+  justify-content: center;
+}
+
+#coffee {
+  position: absolute;
+  width: 49.92rem;
+  height: 31.65rem;
+  left: 17.56rem;
+  top: 19.93rem;
+}
+
+#bola2 {
+  position: absolute;
+  width: 20.06rem;
+  height: 20.06rem;
+  left: -1.81rem;
+  top: 30.93rem;
+  background: #996dff;
+  filter: blur(12.5rem);
+}
