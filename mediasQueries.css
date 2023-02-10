@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 420px) {
   .mobile {
     display: flex;
   }
@@ -12,39 +11,40 @@
     display: none;
   }
   #bola2 {
-    width: 321px;
-    height: 321px;
-    left: 68px;
-    top: 1000px;
+    width: 20.06rem;
+    height: 20.06rem;
+    left: 4.25rem;
+    top: 46.87rem;
     background: #996dff;
-    filter: blur(350px);
+    filter: blur(21.87rem);
   }
   #pedido {
     position: absolute;
-    top: 450px;
-    left: 100px;
+    top: 28.12rem;
+    left: 6.25rem;
   }
   header {
     align-items: center;
     justify-content: flex-start;
-    margin-left: 26px;
-    width: 433px;
-    height: 58.5px;
+    margin-left: 1.62rem;
+    width: 27.06rem;
+    height: 3.65rem;
   }
   .logoMenu {
-    margin-left: 157px;
+    margin-left: 9.81rem;
+    cursor: pointer;
   }
   #titleMobile {
     display: block;
-    width: 373px;
-    height: 128px;
-    margin-top: 184px;
-    margin-bottom: 88px;
+    width: 23.31rem;
+    height: 8rem;
+    margin-top: 11.5rem;
+    margin-bottom: 5.5rem;
 
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 1.87rem;
+    line-height: 2.56rem;
     text-align: center;
     letter-spacing: 0.02rem;
 
@@ -53,38 +53,42 @@
   #coffee {
     display: flex;
     position: absolute;
-    width: 428px;
-    height: 333px;
-    left: 0px;
-    top: 1000px;
+    width: 26.75rem;
+    height: 20.81rem;
+    left: 0rem;
+    top: 46.87rem;
   }
   header nav {
+    margin-top: 26px;
     display: flex;
     position: absolute;
     flex-direction: column;
-    left: 0px;
-    top: 104px;
+    left: 0rem;
+    top: 6.5rem;
   }
-
   nav a {
-    border-top: 1px solid #29292e;
+    border-top: 0.06rem solid #29292e;
     display: flex;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.12rem;
+    line-height: 1.56rem;
     text-align: center;
     align-items: center;
     color: #e1e1e6;
-    width: 500px;
-    height: 50px;
-    padding-left: 30.82px;
+    width: 31.25rem;
+    height: 3.12rem;
+    padding-left: 1.92rem;
+    cursor: pointer;
   }
-
   a:hover {
-    border-left: 5px solid #8257e6;
+    border-left: 0.31rem solid #8257e6;
+    cursor: pointer;
   }
-
   .hidden {
     display: none;
+  }
+  main h1,
+  main h2 {
+    font-size: 3.12rem;
   }
 }
