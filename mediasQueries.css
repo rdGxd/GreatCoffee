@@ -1,7 +1,90 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px){
-  body {
-    background: white;
+
+@media screen and (max-width: 767px) {
+  .mobile {
+    display: flex;
+  }
+  .desktop {
+    display: none;
+  }
+  #bola1 {
+    display: none;
+  }
+  #bola2 {
+    width: 321px;
+    height: 321px;
+    left: 68px;
+    top: 1000px;
+    background: #996dff;
+    filter: blur(350px);
+  }
+  #pedido {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+  }
+  header {
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 26px;
+    width: 433px;
+    height: 58.5px;
+  }
+  .logoMenu {
+    margin-left: 157px;
+  }
+  #titleMobile {
+    display: block;
+    width: 373px;
+    height: 128px;
+    margin-top: 184px;
+    margin-bottom: 88px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.02rem;
+
+    color: white;
+  }
+  #coffee {
+    display: flex;
+    position: absolute;
+    width: 428px;
+    height: 333px;
+    left: 0px;
+    top: 1000px;
+  }
+  header nav {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 0px;
+    top: 104px;
+  }
+
+  nav a {
+    border-top: 1px solid #29292e;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    color: #e1e1e6;
+    width: 500px;
+    height: 50px;
+    padding-left: 30.82px;
+  }
+
+  a:hover {
+    border-left: 5px solid #8257e6;
+  }
+
+  .hidden {
+    display: none;
   }
 }
